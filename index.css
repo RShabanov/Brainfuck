@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    color: #151515;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+    padding: 10px;
+    margin: 0;
+}
+
+.io {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.io-block__div {
+    width: 49.9%;
+    height: 500px;
+}
+
+.program__textarea {
+    width: 100%;
+    height: 100%;
+
+    resize: none;
+
+    border: 1px solid grey;
+    outline: none;
+}
+
+.output__pre {
+    border: 1px solid grey;
+    margin: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.run-btn {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.user-input__div {
+    margin-top: 50px;
+}
+
+.user-input__span {
+    cursor: pointer;
+}

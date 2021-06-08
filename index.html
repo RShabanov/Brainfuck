@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    
+    <title>Brainfuck interpreter</title>
+</head>
+<body>
+    <div class="desk">
+        <header class="desk-header">
+            <div class="option-bar">
+                <button class="run-btn">Run</button>
+            </div>
+        </header>
+        <div class="io">
+            <div class="io-block__div program-wrapper">
+                <div class="wrapper-name">Program</div>
+                <textarea name="program" class="program__textarea"></textarea>
+            </div>
+           
+            <div class="io-block__div output-wrapper">
+                <div class="wrapper-name">Output</div>
+                <pre class="output__pre"></pre>
+            </div>
+        </div>
+        <div class="user-input__div">
+            <label>
+                <span class="user-input__span">Input</span><br>
+                <input type="text" class="input__input" value="" />
+            </label>
+        </div>
+    </div>
+
+    <script src="brainfuck.js"></script>
+</body>
+</html>
