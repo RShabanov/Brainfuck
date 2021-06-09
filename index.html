@@ -33,6 +33,46 @@
                 <input type="text" class="input__input" value="" />
             </label>
         </div>
+        <div class="table-of-rules">
+            <table class="rules__table">
+                <tr class="table__tr">
+                    <th class="table__th">Symbol</th>
+                    <th class="table__th">Description</th>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__td"><pre>></pre></td>
+                    <td class="table__td">Move pointer to the right</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__td"><pre><</pre></td>
+                    <td class="table__td">Move pointer to the left</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__td"><pre>+</pre></td>
+                    <td class="table__td">Increment the cell at the pointer</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__td"><pre>-</pre></td>
+                    <td class="table__td">Decrement the cell at the pointer</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__td"><pre>.</pre></td>
+                    <td class="table__td">Output the character based on the value stored in the cell at the pointer</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__td"><pre>,</pre></td>
+                    <td class="table__td">Read input character and store it in the cell at the pointer</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__td"><pre>[</pre></td>
+                    <td class="table__td">Jump past the matching ] if the cell under the pointer is 0</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__td"><pre>]</pre></td>
+                    <td class="table__td">Jump back to the matching [ if the cell under the pointer is nonzero</td>
+                </tr>
+            </table>
+        </div>
     </div>
 
     <script src="brainfuck.js"></script>
