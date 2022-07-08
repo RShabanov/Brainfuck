@@ -1,2 +1,2 @@
 # Brainfuck interpreter
-https://shabanovr.github.io/Brainfuck/
+https://rshabanov.github.io/Brainfuck/
